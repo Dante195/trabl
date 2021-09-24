@@ -10,7 +10,14 @@ namespace ДЗ_2_v0._1
     {
         static void Main()
         {
-            Class1 
+            Animal animal = new Animal();
+            Goat goat = new Goat();
+            Leopard leopard = new Leopard();
+
+            goat.Fun();
+            animal.Food();
+            leopard.Food();
+            Console.ReadKey();
         }
     }
 }

@@ -9,11 +9,14 @@ namespace ДЗ_2_v0._1
 
 		public Animal(string Name, string View, string Classs)
 		{
-			Name = name;
-			View = view;
-			Classs = classs;
+			Name = Name;
+			View = View;
+			Classs = Classs;
 		}
+		public Animal()
+        {
 
+        }
 		virtual public void Voice()
 		{
 			Console.WriteLine("Рычит");
@@ -21,7 +24,7 @@ namespace ДЗ_2_v0._1
 
 		virtual public void Food()
 		{
-			Console.WriteLine("Ем");
+			Console.WriteLine("Ем траву");
 		}
 
 		virtual public void Eyes()
@@ -36,13 +39,13 @@ namespace ДЗ_2_v0._1
 
 		public void Fun()
 		{
-			Console.WriteLine("умею резвиться")
+			Console.WriteLine("умею резвиться");
 	
 		}
 
 		virtual public void Hunting()
 		{
-			Console.WriteLine("я умею охотиться")
+			Console.WriteLine("я умею охотиться");
 	
 		}
 

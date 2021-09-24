@@ -1,9 +1,10 @@
 ﻿using System;
 
-public class leopard
-{namespace ДЗ_2_v0._1
+
+
+    namespace ДЗ_2_v0._1
 {
-    class leopard : Animal
+    class Leopard : Animal
     {
         public string Postion { get; set; }
 
@@ -30,5 +31,4 @@ public class leopard
 
     }
 
-}
 }
